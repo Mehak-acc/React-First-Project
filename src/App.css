@@ -13,17 +13,6 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
   color: #61dafb;
 }
@@ -36,3 +25,524 @@
     transform: rotate(360deg);
   }
 }
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  max-width: 1440px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: auto;
+  overflow: hidden;
+}
+header {
+  background-color: white !important;
+  padding: 0;
+}
+.notification-icon {
+  color: grey !important;
+}
+.topbar-section {
+  height: 24px;
+  width: 100%;
+  background: #273e59;
+}
+.css-hyum1k-MuiToolbar-root {
+  min-height: 64px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.heading {
+  font-size: 28px;
+  margin-top: 51px;
+  font-weight: bold;
+}
+
+/*equity progress */
+.equity-section {
+  margin-top: 76px;
+}
+.price-div {
+  display: flex;
+  justify-content: space-between;
+}
+.price-div p {
+  font-size: 16px;
+  color: #6b6c6f;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+}
+.price-div h3 {
+  color: #1d7e64;
+  font-size: 32px;
+}
+.polygon {
+  margin: 0 auto;
+  display: block;
+  padding-bottom: 14px;
+}
+/* .progress-bar {
+  width: 100%;
+} */
+.know-para {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-bottom: 27px;
+  margin-top: 49.7px;
+}
+.lists {
+  display: flex;
+  gap: 89px;
+}
+.lists ul li {
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 24px;
+}
+.values li {
+  font-weight: bold !important;
+}
+.li1 {
+  padding-left: 15px;
+}
+.li2 {
+  color: red;
+}
+.li3 {
+  color: green;
+}
+.disclaimer {
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #afa2a2;
+}
+.first-part h4 {
+  padding-bottom: 16px;
+}
+.first-part ul li {
+  font-size: 16px;
+  color: #006dff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  list-style-type: none;
+  text-decoration: underline;
+  padding-bottom: 24px;
+}
+.second-part {
+  background-color: #273e59;
+  color: white;
+  border-radius: 10px;
+  width: 100%;
+  padding: 16px 10px 18px 24px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+.first-div {
+  width: 600px;
+}
+/* .second-div {
+  width: 50%;
+} */
+.name {
+  font-size: 14px;
+  font-weight: 400;
+}
+.ques {
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 16px;
+}
+.profile {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  margin-top: 14px;
+}
+.details p {
+  font-size: 16px !important;
+}
+.details h3 {
+  font-size: 24px;
+  padding: 10px 0px;
+}
+button.schedulebtn {
+  border-radius: 50px;
+  background: white;
+  color: black;
+  border: 0;
+  padding: 14px 40px;
+  margin-top: 24px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* affordability part start */
+.affordability-part {
+  margin-top: 42px;
+}
+.affordability-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 59px;
+}
+.affordability-heading h3 {
+  font-size: 28px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+.save-p {
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+.buttons-div {
+  display: flex;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+.anotherbtn {
+  background: #273e59;
+  color: white;
+  border: 0;
+  border-radius: 50px;
+  padding: 18px 38px;
+  position: relative;
+  left: 25px;
+  z-index: 1;
+}
+.valuebtn {
+  background: #f0f0f0;
+  color: black;
+  border: 0;
+  border-radius: 0px 50px 50px 0px;
+  padding: 18px 38px 18px 50px;
+  position: relative;
+}
+.boxes {
+  display: flex;
+  gap: 32px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  justify-content: space-between;
+}
+.box1 {
+  border: 1px solid #dadce0;
+  border-radius: 10px;
+}
+.inner-details {
+  margin: 42px 47px 25px 22px;
+}
+.inner-details h2 {
+  color: #1d7e64;
+  font-size: 42px;
+  font-weight: 500;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+.inner-details h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.inner-details p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #6b6c6f;
+  padding-top: 8px;
+  padding-bottom: 13px;
+}
+.inner-details h3 {
+  font-size: 20px;
+  text-decoration: underline;
+  color: #0066f5;
+  font-weight: 400;
+}
+.kathle-intro {
+  margin-top: 32px;
+  border-radius: 10px;
+  border: 0;
+  background: #273e59;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+.kathle-first-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+  gap: 30px;
+}
+.kathle h4 {
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 8px;
+}
+.kathle p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffffa8 !important;
+}
+.kathle-profile p {
+  font-size: 11px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+.contactbtn {
+  margin-top: 46px;
+  margin-bottom: 46px;
+  margin-right: 47px;
+  border-radius: 50px;
+  padding: 11px 60px;
+  border: 0;
+  background: white;
+  color: black;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+}
+/* affordability part end */
+
+/* home equity part start */
+.anotherbtn1 {
+  background: #f0f0f0;
+  color: black;
+  border: 0;
+  border-radius: 50px 0px 0px 50px;
+  padding: 18px 38px;
+  position: relative;
+  left: 25px;
+  z-index: -1;
+}
+.valuebtn1 {
+  background: #273e59;
+  color: white;
+  border: 0;
+  border-radius: 50px;
+  padding: 18px 38px 18px 50px;
+  position: relative;
+  z-index: 1;
+}
+.home-value-section {
+  display: flex;
+  gap: 64px;
+}
+.bars-div {
+  border-left: 1px solid #d6c8c8;
+}
+.bar1 {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.increasebtn {
+  color: black;
+  background: #ebb050;
+  padding: 6px 19px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  border: 0;
+  border-radius: 50px;
+}
+.home-value1 h3 {
+  font-size: 28px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 19px;
+  margin-bottom: 43px;
+}
+.home-value1 h3 span {
+  color: #1d7e64;
+}
+.post {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 12px;
+  margin-top: 37px;
+}
+.bar1 p {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+.home-value1 {
+  padding-right: 134px;
+}
+.home-value2 {
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  padding: 45px 99px 44px 36px;
+}
+.home-value2 h4 {
+  font-size: 28px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+.to-do-list1 {
+  display: flex;
+  gap: 16px;
+  margin-top: 24px;
+}
+.solarbtn {
+  border: 0;
+  color: #1d7e64;
+  background: #e8f2ef;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 50px;
+  padding: 16px 40px;
+}
+.btn {
+  border: 1px solid #d9d9d9;
+  padding: 16px 40px;
+  border-radius: 50px;
+}
+.landscaping {
+  margin-top: 24px;
+}
+/* home equity part end */
+
+/* recommended projects start */
+.recommended-part {
+  margin-top: 65px;
+}
+.recommended-part h4 {
+  font-size: 28px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+.projects {
+  display: flex;
+  margin-top: 34px;
+  gap: 34px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 20px;
+}
+.costing {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+.project1 {
+  border: 1px solid #d9d9d9;
+  padding: 16px;
+  border-radius: 10px;
+  font-style: normal;
+  height: 350px;
+}
+.door {
+  font-size: 15px;
+  font-weight: 600;
+  padding-top: 18px;
+  padding-bottom: 8px;
+}
+.by {
+  font-size: 14px;
+  font-weight: 400px;
+  color: #565656;
+}
+.costing h4 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #30ab86;
+}
+.costing button {
+  background: #dbfff4;
+  border: 0;
+  color: #30ab86;
+  padding: 2px 7px;
+}
+p.project-para {
+  color: #6b6c6f;
+  font-size: 16px;
+  font-weight: 400;
+}
+.project1 {
+  font-size: 16px;
+  font-weight: 400;
+}
+p.quote {
+  color: #0066f5;
+  font-size: 16px;
+  font-weight: 400;
+}
+h5.costy {
+  font-size: 16px;
+  margin-top: 4px;
+  margin-bottom: 16px;
+}
+.project1 img {
+  width: 100%;
+  height: auto;
+}
+/* recommended projects end */
+
+.css-i4bv87-MuiSvgIcon-root {
+  color: black;
+}
+
+.progress-bar-container {
+  width: 100%;
+  background-color: white;
+  border-radius: 25px;
+  overflow: hidden;
+  height: 30px;
+  margin-top: 23px;
+}
+
+.progress-bar {
+  display: flex;
+  height: 100%;
+}
+
+.progress-bar div {
+  height: 100%;
+}
+
+.progress {
+  background-color: #1D7E64;
+  width: 25%;
+}
+.progress-white {
+  background-color: grey;
+  width: 25%;
+}
+
