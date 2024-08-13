@@ -7,7 +7,6 @@ import Profile from "./pages/Profile";
 import ProfileUpdate from "./pages/ProfileUpdate";
 import FileUpload from "./components/FileUpload";
 import OnClickEvent from "./components/OnClickEvent";
-import OnClickUsingReactLibrary from "./components/OnClickUsingReactLibrary";
 
 function App() {
   return (
@@ -21,7 +20,6 @@ function App() {
           <Route path="/profile/update" element={<ProfileUpdate />} />
           <Route path="/file" element={<FileUpload />} />
           <Route path="/click" element={<OnClickEvent />} />
-          <Route path="/clickreact" element={<OnClickUsingReactLibrary />} />
         </Routes>
       </BrowserRouter>
     </>
