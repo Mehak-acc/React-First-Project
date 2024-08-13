@@ -1,9 +1,13 @@
 import { Box } from "@mui/material";
 import React from "react";
 import { useMediaQuerySizes } from "../utils/mediaQuery";
+import RenovationProgressBar from "./RenovationProgressBar";
+
+import { equityData } from "../utils/data";
 
 function Button2() {
   const { isSmall } = useMediaQuerySizes();
+  const strngHelocValue = parseFloat(equityData.availableHeloc).toLocaleString();
 
   return (
     <div>
@@ -18,10 +22,9 @@ function Button2() {
           <div className="home-value1">
             <button className="increasebtn">Increase your home value</button>
             <h3>
-              Use your <span>+$65,000 </span> worth of equity
+              Use your <span>+${strngHelocValue} </span> worth of equity
             </h3>
-            <p className="post">Post renovation Home value</p>
-            <div className="bars-div">
+            {/* <div className="bars-div">
               <div className="bar1">
                 <Box
                   sx={{
@@ -42,9 +45,10 @@ function Button2() {
                 <img className="barimg1" src="../images/bar3.png" alt="" />
                 <p>$300,000</p>
               </div>
-            </div>
+            </div> */}
+            <RenovationProgressBar/>
           </div>
-          <div className="home-value2">
+          <Box className="home-value2" sx={{ padding: isSmall ? "22px 12px 30px 12px" : "45px 99px 44px 36px"}}>
             <h4>What home improvements are on your-to-do list?</h4>
             <div className="to-do-list1">
               <button className="solarbtn">Solar panel</button>
@@ -59,7 +63,7 @@ function Button2() {
               <button className="btn">New roof</button>
             </div>
             <button className="btn landscaping">Landscaping</button>
-          </div>
+          </Box>
         </Box>
       </div>
     </div>

@@ -39,6 +39,7 @@ const modalData = [
   {
     title: "Entry door replacement",
     content: "These recommended projects can increase the your home value",
+    image: <img src="../images/group4.png" />,
   },
 ];
 
@@ -156,7 +157,9 @@ function RecommendedProjects() {
               <Typography id="modal-modal-description" sx={{ mt: 2 }}>
                 {modalData[modalIndex].image}
               </Typography>
-            ) : (
+            ) : null}
+
+            {modalData[modalIndex].content && (
               <Typography id="modal-modal-description" sx={{ mt: 2 }}>
                 {modalData[modalIndex].content}
               </Typography>
